@@ -1,0 +1,53 @@
+.ChannelList {
+  background-color: #4A3A4A;
+  flex: 0.2;
+}
+
+.ChannelHeader {
+  font-family: Slack-Lato,appleLogo,sans-serif;
+  text-align: left;
+  font-size: .8rem;
+  line-height: 1.25rem;
+  margin: 1rem 1rem .1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #AB9BA9;
+  width: 165px;
+  position: relative;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ChannelUl {
+  list-style-type: none;
+  text-align: left;
+  color: #AB9BA9;
+  margin: 0 1px 0 0;
+}
+
+.ChannelLiIcon {
+  color: #AB9BA9;
+  font-weight: 500;
+  opacity: .5;
+}
+
+.ChannelLi {
+  background-color: #4A3A4A;
+  font-family: Slack-Lato,appleLogo,sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.ChannelLi-active {
+  background-color: #5D9489;
+  font-family: Slack-Lato,appleLogo,sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+}

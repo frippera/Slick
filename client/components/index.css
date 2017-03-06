@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
